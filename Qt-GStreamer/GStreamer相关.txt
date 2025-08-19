@@ -1,0 +1,34 @@
+1.Qt里面有个插件工程。 这是一个库/插件工程，不是可执行程序，所以没有main函数。它需要被其他Qt应用程序加载和使用。
+		 D:\Qt\Qt6.9.1\6.9.1\Src\qtmultimedia\src\plugins\multimedia\gstreamer
+2.GStreamer已经安装在 D:\Program Files\gstreamer 
+
+3.Gemini给了个示例，在Bash下
+发送端
+gst-launch-1.0 videotestsrc ! videoconvert ! x264enc tune=zerolatency ! rtph264pay ! udpsink host=127.0.0.1 port=5000
+或者
+# 发送端（新）
+gst-launch-1.0 filesrc location=D:/demo.mp4 ! decodebin ! videoconvert ! x264enc tune=zerolatency ! rtph264pay ! udpsink host=127.0.0.1 port=5000(解释附下)
+接收端
+gst-launch-1.0 udpsrc port=5000 ! application/x-rtp, media=video, clock-rate=90000, encoding-name=H264, payload=96 ! rtph264depay ! avdec_h264 ! autovideosink
+
+参数解释 
+gst-launch-1.0 程序名，在环境变量path中
+filesrc location=D:/demo.mp4 指定文件路径，当然我们也可以用视频流，而不是现有的。代码会要改一下。
+decodebin 智能解码器
+videoconvert 进行格式标准化
+x264enc 将其重新压缩成 H.264 格式，为网络传输做准备
+tune=zerolatency 编码器参数。	压缩机的一个特殊设置，意为“零延迟调优”。它告诉压缩机：“别等凑够一大堆产品再打包，来一个就打一个”，以保证视频的实时性。
+rtph264pay：将压缩好的数据装入 RTP 标准快递盒。
+udpsink：通过网络发送出去。
+
+GStream学习资料
+https://gstreamer.freedesktop.org/
+https://gstreamer.freedesktop.org/documentation/application-development/basics/init.html?gi-language=c
+https://gstreamer.freedesktop.org/pkg/
+https://gitlab.freedesktop.org/gstreamer/gstreamer
+https://gstreamer.freedesktop.org/documentation/plugins_doc.html?gi-language=c
+
+Qt官方对于GStreamer的介绍https://doc.qt.io/qt-6/qtmultimedia-gstreamer.html
+
+GStreamer基本教程
+https://www.cnblogs.com/xleng/p/10948838.html
