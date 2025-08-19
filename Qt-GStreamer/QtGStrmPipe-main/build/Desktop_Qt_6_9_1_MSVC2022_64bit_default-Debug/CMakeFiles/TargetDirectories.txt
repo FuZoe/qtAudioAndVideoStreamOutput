@@ -1,0 +1,8 @@
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/test0815-2.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/edit_cache.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/rebuild_cache.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/list_install_components.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/install.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/install/local.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/test0815-2_autogen_timestamp_deps.dir
+D:/Qt/Qt6.9.1/MyQtProjects/test0815-2/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/test0815-2_autogen.dir
