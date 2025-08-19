@@ -1,0 +1,228 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 673,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "calculateFps",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setImage",
+                        "line": 108
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "clearImage",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot access value for name currentImage",
+                        "functionName": "source",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"running\".",
+                        "functionName": "running",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"visible\".",
+                        "functionName": "visible",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"centerIn\".",
+                        "functionName": "centerIn",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 2734,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot access value for name statusText",
+                        "functionName": "text",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 295,
+                        "errorMessage": "Cannot access value for name showFps",
+                        "functionName": "text",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 83
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name showFps",
+                        "functionName": "visible",
+                        "line": 84
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "Cannot access value for name mouse",
+                        "functionName": "onClicked",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 150
+                    }
+                ],
+                "filePath": "D:/vs_projects/GrabToImage/DisplayWindow.qml"
+            }
+        ],
+        "moduleId": "GrabToImage(appGrabToImage)"
+    }
+]

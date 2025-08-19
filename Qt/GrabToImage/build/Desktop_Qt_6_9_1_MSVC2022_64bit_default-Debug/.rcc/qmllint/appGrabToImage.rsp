@@ -1,0 +1,10 @@
+--bare
+-I
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug
+-I
+D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/qml
+--resource
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/.qt/rcc/qmake_GrabToImage.qrc
+--resource
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/.qt/rcc/appGrabToImage_raw_qml_0.qrc
+D:/QQuickRenderControl/GrabToImage/Main.qml

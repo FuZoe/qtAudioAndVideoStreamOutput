@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appGrabToImage_FILE D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/appGrabToImage.exe)
+set(__QT_DEPLOY_TARGET_appGrabToImage_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appGrabToImage_RUNTIME_DLLS D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6Quickd.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6QmlMetad.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6QmlWorkerScriptd.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6QmlModelsd.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6Qmld.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6Networkd.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6OpenGLd.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6Guid.dll;D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/bin/Qt6Cored.dll)

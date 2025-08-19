@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/GrabToImage/">
+    <file alias="Main.qml">D:/QQuickRenderControl/GrabToImage/Main.qml</file>
+  </qresource>
+</RCC>
+

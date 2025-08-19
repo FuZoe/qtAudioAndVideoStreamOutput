@@ -1,0 +1,14 @@
+-rootPath
+D:/QQuickRenderControl/GrabToImage
+-cmake-output
+-output-file
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/.qt/qml_imports/appGrabToImage_build.cmake
+-importPath
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/GrabToImage
+-importPath
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug
+-importPath
+D:/Qt/Qt6.9.1/6.9.1/msvc2022_64/qml
+-qrcFiles
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/.qt/rcc/qmake_GrabToImage.qrc
+D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/.qt/rcc/appGrabToImage_raw_qml_0.qrc

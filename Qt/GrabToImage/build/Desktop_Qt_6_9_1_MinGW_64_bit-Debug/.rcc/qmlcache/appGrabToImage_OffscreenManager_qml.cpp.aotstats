@@ -1,0 +1,124 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 253,
+                        "errorMessage": "",
+                        "functionName": "startCapture",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "stopCapture",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 655,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 677,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method hsla, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 246,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "onTriggered",
+                        "line": 52
+                    }
+                ],
+                "filePath": "D:/vs_projects/GrabToImage/OffscreenManager.qml"
+            }
+        ],
+        "moduleId": "GrabToImage(appGrabToImage)"
+    }
+]

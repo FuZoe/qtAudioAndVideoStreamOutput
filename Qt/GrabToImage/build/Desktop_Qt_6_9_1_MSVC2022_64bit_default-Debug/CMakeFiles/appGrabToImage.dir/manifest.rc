@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/QQuickRenderControl/GrabToImage/build/Desktop_Qt_6_9_1_MSVC2022_64bit_default-Debug/CMakeFiles/appGrabToImage.dir/embed.manifest"

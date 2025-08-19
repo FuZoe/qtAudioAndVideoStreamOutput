@@ -1,0 +1,356 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 707,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "captureOnce",
+                        "line": 246
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 178,
+                        "errorMessage": "",
+                        "functionName": "toggleContinuousCapture",
+                        "line": 265
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "x",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "y",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 88
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 89
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 93
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 94
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 174,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "text",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"valueChanged\".",
+                        "functionName": "onValueChanged",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"model\".",
+                        "functionName": "model",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"activated\".",
+                        "functionName": "onActivated",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"activated\".",
+                        "functionName": "onActivated",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 162
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 160
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"running\".",
+                        "functionName": "running",
+                        "line": 169
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"visible\".",
+                        "functionName": "visible",
+                        "line": 170
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"centerIn\".",
+                        "functionName": "centerIn",
+                        "line": 168
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "Cannot generate efficient code for incomparable types QString and QQuickImageBase::source with type QUrl",
+                        "functionName": "visible",
+                        "line": 178
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 175
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "onPlaybackStateChanged",
+                        "line": 189
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "Cannot generate efficient code for content pointer of unsupported wrapper type (component in D:/vs_projects/GrabToImage/Main.qml)::error with type Error (stored as QJSValue)",
+                        "functionName": "onErrorOccurred",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "videoOutput",
+                        "line": 197
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 208
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 204
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 225
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"left\".",
+                        "functionName": "left",
+                        "line": 221
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 222
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "method captureOnce cannot be resolved.",
+                        "functionName": "onTriggered",
+                        "line": 241
+                    }
+                ],
+                "filePath": "D:/vs_projects/GrabToImage/Main.qml"
+            }
+        ],
+        "moduleId": "GrabToImage(appGrabToImage)"
+    }
+]

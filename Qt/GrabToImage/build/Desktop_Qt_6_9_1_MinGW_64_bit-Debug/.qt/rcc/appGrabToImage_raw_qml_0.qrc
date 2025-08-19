@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/GrabToImage/">
+    <file alias="Main.qml">D:/vs_projects/GrabToImage/Main.qml</file>
+  </qresource>
+</RCC>
+

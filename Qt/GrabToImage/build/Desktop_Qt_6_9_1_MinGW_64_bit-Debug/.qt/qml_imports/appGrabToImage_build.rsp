@@ -1,0 +1,14 @@
+-rootPath
+D:/vs_projects/GrabToImage
+-cmake-output
+-output-file
+D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/qml_imports/appGrabToImage_build.cmake
+-importPath
+D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/GrabToImage
+-importPath
+D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug
+-importPath
+D:/Qt/Qt6.9.1/6.9.1/mingw_64/qml
+-qrcFiles
+D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_GrabToImage.qrc
+D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/appGrabToImage_raw_qml_0.qrc

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/GrabToImage">
+    <file alias="qmldir">D:/vs_projects/GrabToImage/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/GrabToImage/qmldir</file>
+  </qresource>
+</RCC>
+

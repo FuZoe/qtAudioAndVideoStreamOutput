@@ -1,0 +1,5 @@
+module GrabToImage
+typeinfo appGrabToImage.qmltypes
+prefer :/GrabToImage/
+Main 1.0 Main.qml
+
