@@ -1,9 +1,7 @@
-需要注意的是，Qt-GStreamer的官方示例库早就在7年前停止了维护：https://github.com/GStreamer/qt-gstreamer
+需要注意的是，[Qt-GStreamer的官方示例库](https://github.com/GStreamer/qt-gstreamer)早就在7年前停止了维护.
 
 
-Qt官方对于GStreamer的说明：https://doc.qt.io/qt-6/qtmultimedia-gstreamer.html
-
-说明中提到"Qt-GStreamer搜索、播放速率、循环、切换接收器均存在已知错误。"（Seeking, playback rates, loop, switching sinks have known bugs.)
+[Qt官方对于GStreamer的说明](https://doc.qt.io/qt-6/qtmultimedia-gstreamer.html)中提到"Qt-GStreamer搜索、播放速率、循环、切换接收器均存在已知错误。"（Seeking, playback rates, loop, switching sinks have known bugs.)
 
 [Qt官方对于Qt Multimedia的说明](https://doc.qt.io/qt-6/qtmultimedia-index.html)中也提到"GStreamer 后端仅在 Linux 上可用,并且仅推荐用于嵌入式应用程序。""GStreamer 后端有一些私有 API,以允许更细粒度的控制。"（The GStreamer backend is only available on Linux, and is only recommended for embedded applications.）（The GStreamer backend has some private APIs to allow more fine-grained control. )
 
