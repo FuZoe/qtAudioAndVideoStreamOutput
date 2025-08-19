@@ -8,5 +8,5 @@ Qt官方对于GStreamer的说明：https://doc.qt.io/qt-6/qtmultimedia-gstreamer
 本文件夹下是一些Qt-GStreamer的Demo，需要注意的是，由于开发环境不同，可能会出现一些无法消除的报错弹窗(不影响功能使用)。
 
 目录：
-1.播放本地视频。点击：Qt-GStreamer\QtGStrmPipe-main （可修改视频路径，在main.cpp的：playbin uri=file:///D:/demo.mp4）
-2.从摄像头捕获视频并显示在屏幕上。点击：https://github.com/FuZoe/CptVideoFrCamera
+1.播放本地视频。点击：[Qt-GStreamer\QtGStrmPipe-main](https://github.com/FuZoe/qtAudioAndVideoStreamOutput/tree/main/Qt-GStreamer/QtGStrmPipe-main) （可修改视频路径，在main.cpp的：playbin uri=file:///D:/demo.mp4）
+2.从摄像头捕获视频并显示在屏幕上。点击：[https://github.com/FuZoe/CptVideoFrCamera](https://github.com/FuZoe/CptVideoFrCamera)
