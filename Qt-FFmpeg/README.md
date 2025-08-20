@@ -9,3 +9,39 @@ Qt6 的设计非常灵活，它允许你为播放器外壳（Qt Multimedia）选
 所以，Qt6 将 FFmpeg 作为一个独立的、可插拔的后端插件。当你安装 Qt6 时，可以选择是否包含这个基于 FFmpeg 的多媒体后端。启用后，Qt Multimedia 模块就会在运行时加载这个插件，从而获得强大的音视频解码能力。
 
 需要安装  qt6-multimedia 库及其 FFmpeg 插件（如 qt6-multimedia-ffmpeg），Qt6 可以利用 FFmpeg 的功能来处理音视频内容 
+
+参考资料：
+
+1.
+官方API参考文档：https://ffmpeg.org/doxygen/trunk/
+
+官方中文文档：https://ffmpeg.p2hp.com/documentation.html
+
+2.源代码头文件（对于 C/C++ 开发者来说，最精准、最不会出错的文档其实就是头文件本身。FFmpeg 的开发者在头文件中留下了非常详尽的注释。
+
+当你在你的项目中 #include 这些文件时，可以直接跳转到函数定义处查看：
+
+libavformat/avformat.h
+
+libavcodec/avcodec.h
+
+libswscale/swscale.h
+
+libavutil/frame.h (用于 AVFrame 结构体)
+
+libavutil/pixfmt.h (用于像素格式定义)
+
+这些头文件里的注释和 Doxygen 文档是同步的。）
+
+3.官方示例代码
+
+FFmpeg 官方提供了一系列示例代码，它们是学习如何正确组合使用这些 API 的最佳材料。
+
+你可以在 FFmpeg 源代码的 doc/examples 目录下找到它们。
+
+下载 FFmpeg 源代码: git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+
+进入示例目录: cd ffmpeg/doc/examples
+
+
+其中，有一个文件叫做 demuxing_decoding.c，它非常经典，完整地展示了从打开文件、查找流、解码音视频、直到获取 AVFrame 的全过程。
