@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug
+-I
+D:/Qt/Qt6.9/6.9.1/mingw_64/qml
+--resource
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/.qt/rcc/qmake_GrabToImage.qrc
+--resource
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/.qt/rcc/appGrabToImage_raw_qml_0.qrc
+C:/Users/User/Desktop/0821/GrabToImage/Main.qml
+--json
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/appGrabToImage_qmllint.json

@@ -1,0 +1,8 @@
+--bare
+-I
+D:/Qt/Qt6.9/6.9.1/mingw_64/qml
+--resource
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/.qt/rcc/qmake_FFmpegDemo.qrc
+--resource
+C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/.qt/rcc/appFFmpegDemo_raw_qml_0.qrc
+C:/Users/User/Desktop/0821/GrabToImage/Main.qml

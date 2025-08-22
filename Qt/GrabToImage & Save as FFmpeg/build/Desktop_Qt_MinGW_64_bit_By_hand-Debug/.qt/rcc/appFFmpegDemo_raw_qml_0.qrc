@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FFmpegDemo/">
+    <file alias="Main.qml">C:/Users/User/Desktop/0821/GrabToImage/Main.qml</file>
+  </qresource>
+</RCC>
+

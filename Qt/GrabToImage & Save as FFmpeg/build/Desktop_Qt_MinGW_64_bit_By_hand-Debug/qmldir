@@ -1,0 +1,8 @@
+module FFmpegDemo
+linktarget appFFmpegDemoplugin
+optional plugin appFFmpegDemoplugin
+classname FFmpegDemoPlugin
+typeinfo appFFmpegDemo.qmltypes
+prefer :/FFmpegDemo/
+Main 1.0 Main.qml
+

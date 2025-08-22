@@ -1,0 +1,85 @@
+[
+    {
+        "classes": [
+            {
+                "className": "VideoRecorder",
+                "lineNumber": 14,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filename",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "width",
+                                "type": "int"
+                            },
+                            {
+                                "name": "height",
+                                "type": "int"
+                            },
+                            {
+                                "name": "fps",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "startRecording",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filename",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "width",
+                                "type": "int"
+                            },
+                            {
+                                "name": "height",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "isCloned": true,
+                        "name": "startRecording",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "image",
+                                "type": "QImage"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "addFrame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "stopRecording",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "VideoRecorder",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "videorecorder.h",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FFmpegDemo">
+    <file alias="qmldir">C:/Users/User/Desktop/0821/GrabToImage/build/Desktop_Qt_MinGW_64_bit_By_hand-Debug/qmldir</file>
+  </qresource>
+</RCC>
+

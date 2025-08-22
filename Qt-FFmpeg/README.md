@@ -1,5 +1,3 @@
-Qt6 将 FFmpeg 集成在其** Qt Multimedia 模块**中。（ Qt 6.4 版本+ ）
-
 想象一下 Qt Multimedia 模块是一个多功能的播放器外壳。这个外壳本身提供了所有用户能看到的按钮，比如“播放”、“暂停”、“停止”等标准接口。但是，这个外壳自己并不知道如何去解码和播放一部电影，比如一部 MP4 或者 MKV 格式的影片。
 
 这时，就需要一个强大的“解码引擎”在后台默默工作。FFmpeg 就是这个解码引擎。
@@ -43,5 +41,9 @@ FFmpeg 官方提供了一系列示例代码，它们是学习如何正确组合�
 
 进入示例目录: cd ffmpeg/doc/examples
 
-
 其中，有一个文件叫做 demuxing_decoding.c，它非常经典，完整地展示了从打开文件、查找流、解码音视频、直到获取 AVFrame 的全过程。
+
+
+### 我仓库中的Demo如下：
+
+1.[雷神的FFmpeg播放视频的Demo](https://github.com/FuZoe/ffmpeg_simple_player/releases/tag/VS) 注：点进去以后下载ffmpeg_simple_player.7z文件。代码有点老了，毕竟是2013年的
