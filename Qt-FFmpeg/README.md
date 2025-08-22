@@ -47,3 +47,5 @@ FFmpeg 官方提供了一系列示例代码，它们是学习如何正确组合�
 ### 我仓库中的Demo如下：
 
 1.[雷神的FFmpeg播放视频的Demo](https://github.com/FuZoe/ffmpeg_simple_player/releases/tag/VS) 注：点进去以后下载ffmpeg_simple_player.7z文件。代码有点老了，毕竟是2013年的
+
+2.[GrabToImage & Save as FFmpeg](https://github.com/FuZoe/qtAudioAndVideoStreamOutput/tree/main/Qt/GrabToImage%20%26%20Save%20as%20FFmpeg) 通过GrabToImage一帧一帧地抓取图片，然后通过FFmpeg视频流输出到本地构建文件夹
